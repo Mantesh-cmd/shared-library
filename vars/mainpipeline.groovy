@@ -3,7 +3,7 @@ def call(String repoUrl) {
   pipeline {
        agent any
        tools {
-           maven 'Maven 3.8.3'
+           maven '3.8.3'
            jdk 'jdk8'
        }
        stages {
